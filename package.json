@@ -1,0 +1,34 @@
+{
+  "homepage": "https://akhttar.github.io/apiserver",
+  "name": "apiserver",
+  "main": "server.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "gh-pages": "^2.1.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "0.9.5"
+  },
+  "devDependencies": {
+    "json-server": "^0.14.2"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhttar/apiserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhttar/apiserver/issues"
+  },
+  "description": ""
+}
